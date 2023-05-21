@@ -1,5 +1,5 @@
 import { Mesh, Vector3 } from "three";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { useControls, button } from "leva";
 import {
@@ -8,8 +8,6 @@ import {
   Text3D,
   PerspectiveCamera,
 } from "@react-three/drei";
-import helvetiker from "three/examples/fonts/helvetiker_regular.typeface.json";
-import optimerBold from "three/examples/fonts/gentilis_bold.typeface.json";
 import robotoBold from "./Roboto Black_Regular.json";
 
 type TextProps = {
